@@ -10,7 +10,7 @@ public class MyApp {
 
 		while (opcao != 3) {
 			opcao = obterOpcaoMenu(sc);
-		}
+		
 		if (opcao == 1) { // Consulta Contato
 			consultarContato(sc, agenda);
 		} else if (opcao == 2) { // Adiciona Contato
@@ -18,7 +18,7 @@ public class MyApp {
 		} else if (opcao == 3) { // Encerra
 			System.exit(0);
 		}
-
+		}
 	}
 
 	public static void adicionarContato(Scanner sc, Agenda agenda) {

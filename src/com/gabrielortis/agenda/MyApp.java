@@ -10,14 +10,14 @@ public class MyApp {
 
 		while (opcao != 3) {
 			opcao = obterOpcaoMenu(sc);
-		
-		if (opcao == 1) { // Consulta Contato
-			consultarContato(sc, agenda);
-		} else if (opcao == 2) { // Adiciona Contato
-			adicionarContato(sc, agenda);
-		} else if (opcao == 3) { // Encerra
-			System.exit(0);
-		}
+
+			if (opcao == 1) { // Consulta Contato
+				consultarContato(sc, agenda);
+			} else if (opcao == 2) { // Adiciona Contato
+				adicionarContato(sc, agenda);
+			} else if (opcao == 3) { // Encerra
+				System.exit(0);
+			}
 		}
 	}
 
